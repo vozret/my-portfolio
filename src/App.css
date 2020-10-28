@@ -37,6 +37,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   color: white;
+  text-decoration: none;
 }
 
 .nav-link {
@@ -49,9 +50,12 @@ nav {
 li {
   display: block;
   padding-right: 5px;
+  color: white;
+  margin: 10px;
 }
 
 li:hover {
   cursor: pointer;
   color: gold;
+  text-decoration: gold;
 }
