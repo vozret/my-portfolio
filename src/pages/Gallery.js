@@ -1,13 +1,13 @@
 import React from 'react';
+import Gallery from "react-photo-gallery";
+import {photos} from './photos';
 
-class Gallery extends React.Component {
+class GalleryComponent extends React.Component {
     render() {
         return(
-            <div>
-                Gallery works!
-            </div>
+            <Gallery photos={photos} direction={"column"} />
         );
     }
 }
 
-export default Gallery;
+export default GalleryComponent;

@@ -7,7 +7,7 @@ import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Home from './pages/Home';
 import About from './pages/About';
-import Gallery from './pages/Gallery';
+import GalleryComponent from './pages/Gallery';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Switch>
           <Route path="/" exact component={Home} ></Route>
           <Route path="/about" exact component={About} ></Route>
-          <Route path="/gallery" exact component={Gallery} ></Route>
+          <Route path="/gallery" exact component={GalleryComponent} ></Route>
           </Switch>
         </div>
         <Footer />
