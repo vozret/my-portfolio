@@ -1,4 +1,4 @@
-#my portofolio website
+# my portofolio website
 -reactjs
 -HTML
 -css (grid)
